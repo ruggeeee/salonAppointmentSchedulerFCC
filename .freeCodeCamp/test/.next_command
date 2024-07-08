@@ -102,3 +102,9 @@ chmod +x salon.sh
 pg_dump -c --inserts -U freecodecamp salon > salon.sql
 echo "# salonAppointmentSchedulerFCC" >> README.md
 git add .
+git commit -m "first commit"
+git remote remove origin
+git commit -m "first commit"
+git remote add origin https://github.com/ruggeeee/salonAppointmentSchedulerFCC.git
+git commit -m "new commit"
+git add .
