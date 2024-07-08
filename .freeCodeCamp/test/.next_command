@@ -100,3 +100,5 @@ chmod +x salon.sh
 2
 2
 pg_dump -c --inserts -U freecodecamp salon > salon.sql
+echo "# salonAppointmentSchedulerFCC" >> README.md
+git add .
